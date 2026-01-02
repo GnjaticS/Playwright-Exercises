@@ -1,0 +1,17 @@
+node_modules/
+test-results/
+playwright-report/
+
+# Screenshots and images
+*.png
+*.jpg
+*.jpeg
+
+# State files
+state.json
+
+# System files
+.DS_Store
+
+# Backup config files
+*1.config.js
