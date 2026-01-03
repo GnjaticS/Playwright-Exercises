@@ -9,6 +9,11 @@ test('Calendar', async ({page})=>
     await cp.goToPage();
     await cp.selectDate(6, 15, 2025);
 
+    //verify that the date is correct
+    await cp.verifyDate("2025-06-15");
+
+    //await cp.convertDate("2025")
+
 })
 
 
